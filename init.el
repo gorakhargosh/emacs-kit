@@ -56,6 +56,9 @@
 
 (menu-bar-mode t)
 
+;; Default font size
+(set-face-attribute 'default nil :height 140)
+
 (require 'config-defuns)
 (require 'config-bindings)
 (require 'config-python-mode)

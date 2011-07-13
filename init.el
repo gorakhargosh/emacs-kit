@@ -14,8 +14,10 @@
 (add-to-list 'load-path config-dir)
 
 
-
+(require 'config-defuns)
 (require 'config-bindings)
+(require 'config-completion)
+
 
 ;; Default directory
 ;;(setq default-directory "~/")

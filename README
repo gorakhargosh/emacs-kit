@@ -7,6 +7,8 @@ Download Emacs 24
 * For Mac OS X it is at http://emacsformacosx.com
 * read: http://github.com/technomancy/emacs-starter-kit v2 branch.
 
+Clone this repository in ~/.emacs.d/
+
 Packages installed:
 -------------------
 
@@ -18,12 +20,16 @@ starter-kit (v2)
 starter-kit-js
 starter-kit-ruby
 starter-kit-lisp
+
 autopair
-auto-complete
-anything
-ipython
-anything-ipython
+
 color-theme
 color-theme-ir-black
 color-theme-twilight
 
+auto-complete
+anything
+anything-config
+anything-extension
+anything-ipython
+ipython

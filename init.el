@@ -49,6 +49,8 @@
 
 ;;; Load configuration
 
+(menu-bar-mode t)
+
 (require 'config-defuns)
 (require 'config-bindings)
 (require 'config-python-mode)
@@ -56,7 +58,7 @@
 ;;(require 'config-color)
 
 
-(require 'color-theme-github)
+(require 'color-theme-dpaste)
 
 
 ;; ***************************************************************************

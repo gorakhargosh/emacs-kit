@@ -1,4 +1,22 @@
 Emacs configuration.
 
+Packages installed:
+-------------------
 
+marmalade http://marmalade-repo.org/
+
+Then:
+
+starter-kit (v2)
+starter-kit-js
+starter-kit-ruby
+starter-kit-lisp
+autopair
+auto-complete
+anything
+ipython
+anything-ipython
+color-theme
+color-theme-ir-black
+color-theme-twilight
 

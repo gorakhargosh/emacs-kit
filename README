@@ -26,6 +26,10 @@ autopair
 color-theme
 color-theme-ir-black
 color-theme-twilight
+color-theme-github
+color-theme-dpaste
+color-theme-eclipse
+color-theme-tangotango
 
 auto-complete
 anything
@@ -33,3 +37,11 @@ anything-config
 anything-extension
 anything-ipython
 ipython
+flymake-cursor
+
+Python development
+------------------
+$ pip install pyflakes pep8
+
+Add ~/.emacs.d/bin/ to your PATH
+

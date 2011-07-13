@@ -13,6 +13,11 @@
                   (or (buffer-file-name) load-file-name)))
 (add-to-list 'load-path config-dir)
 
+;;; A quick & ugly PATH solution to Emacs on Mac OSX
+(if (string-equal "darwin" (symbol-name system-type))
+    (setenv "PATH" (concat "/usr/local/bin:/usr/bin" (getenv "PATH"))))
+(setenv "PATH" (concat (concat config-dir "bin") (getenv "PATH")))
+
 ;; ***************************************************************************
 ;; Custom hooks for the window frame
 ;; ---------------------------------
@@ -74,6 +79,7 @@
     (byte-compile-file user-init-file)
     ;; (message "%s compiled" user-init-file)
     ))
+
 
 (defun my-emacs-lisp-mode-hook ()
   (when (equal buffer-file-name user-init-file)

@@ -3,4 +3,5 @@
 *.elc
 elpa/
 places
-
+ac-comphist.dat
+anything-c-adaptive-history

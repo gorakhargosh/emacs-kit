@@ -39,6 +39,9 @@ anything-ipython
 ipython
 flymake-cursor
 
+haskell-mode
+
+
 Python development
 ------------------
 $ pip install pyflakes pep8

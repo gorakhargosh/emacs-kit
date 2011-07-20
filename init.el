@@ -18,6 +18,9 @@
     (setenv "PATH" (concat "/usr/local/bin:/usr/bin" (getenv "PATH"))))
 (setenv "PATH" (concat (concat config-dir "bin") (getenv "PATH")))
 
+(require 'config-environment)
+
+
 ;; ***************************************************************************
 ;; Custom hooks for the window frame
 ;; ---------------------------------
@@ -64,9 +67,7 @@
 (require 'config-python-mode)
 (require 'config-auto-complete)
 ;;(require 'config-color)
-
-
-(require 'color-theme-dpaste)
+;;(require 'color-theme-ir-black)
 
 
 ;; ***************************************************************************

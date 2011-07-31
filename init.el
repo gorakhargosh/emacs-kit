@@ -69,6 +69,7 @@
 ;;(require 'config-color)
 ;;(require 'color-theme-ir-black)
 
+(require 'cython-mode)
 
 ;; ***************************************************************************
 ;; Automatically recompile the emacs init file on buffer-save or exit

@@ -68,6 +68,7 @@
 (require 'config-auto-complete)
 ;;(require 'config-color)
 ;;(require 'color-theme-ir-black)
+(require 'config-erc)
 
 (require 'cython-mode)
 

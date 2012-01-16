@@ -5,3 +5,7 @@ elpa/
 places
 ac-comphist.dat
 anything-c-adaptive-history
+backups/
+install-deps.el
+url/cookies
+auto-save-list/

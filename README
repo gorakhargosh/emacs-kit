@@ -39,9 +39,11 @@ anything-ipython
 ipython
 flymake-cursor
 
-haskell-mode
+clojure-mode
+clojurescript-mode
+coffee-mode
 go-mode
-
+haskell-mode
 
 Python development
 ------------------

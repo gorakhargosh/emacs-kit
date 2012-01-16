@@ -18,7 +18,7 @@
     (setenv "PATH" (concat "/usr/local/bin:/usr/bin" (getenv "PATH"))))
 (setenv "PATH" (concat (concat config-dir "bin") (getenv "PATH")))
 
-(require 'config-environment)
+;;(require 'config-environment)
 
 
 ;; ***************************************************************************
@@ -70,7 +70,11 @@
 ;;(require 'color-theme-ir-black)
 (require 'config-erc)
 
-(require 'cython-mode)
+;;(require 'cython-mode)
+(require 'clojure-mode)
+(require 'clojurescript-mode)
+(require 'coffee-mode)
+
 
 ;; ***************************************************************************
 ;; Automatically recompile the emacs init file on buffer-save or exit

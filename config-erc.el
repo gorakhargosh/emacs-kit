@@ -1,7 +1,6 @@
 
 (setq erc-autojoin-channels-alist
-      '(("freenode.net" "#tipfy" "#python" "#appengine" "##linux-india")
-        ("irc.mozilla.org" "#firefox")))
+      '(("freenode.net" "#tipfy" "#python" "#pypy"  "#appengine" "##linux-india" "#haskell")))
 
 ;; Servers you want to connect to.
 ;;(erc :server "irc.mozilla.org" :port 6667 :nick "yournick")
